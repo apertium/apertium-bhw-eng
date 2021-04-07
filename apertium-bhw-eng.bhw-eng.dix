@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
    <!-- Define the alphabet below. -->
-  <alphabet>aAáÁăảạÆbBcCčdDÐeEéèễệfFgGhHiIíjJkKlLmMnNoOóöớpPqQrRsSšştTŢuUúüưvVwWxXyYzZ</alphabet>
+  <alphabet>aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZ</alphabet>
 
   <sdefs>
     <!-- Define symbol definitions within <sdef> here. -->
@@ -47,6 +47,7 @@
 
     <sdef n="sg"              c="Singular"/>
     <sdef n="du"              c="Dual"/>
+    <sdef n="pc"              c="Paucal"/>
     <sdef n="pl"              c="Plural"/>
     <sdef n="sp"              c="Singular / plural"/>
 
@@ -62,7 +63,7 @@
     <sdef n="qnt"             c="Quantifier"/>
     <sdef n="neg"             c="Negative"/>
     <sdef n="emph"            c="Emphatic"/>
-
+   
     <sdef n="inf"             c="Infinitive"/>
     <sdef n="pres"            c="Present"/>
     <sdef n="imp"             c="Imperative"/>
@@ -97,7 +98,9 @@
 
    <section id="main" type="standard">
       <!-- Define entries within <e> here. -->
-      <e><p><l>house<s n="n"/></l><r>casa<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>ikak<s n="n"/></l>
+            <r>snake<s n="n"/></p></e>
+
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
