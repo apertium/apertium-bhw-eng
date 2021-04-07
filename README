@@ -72,12 +72,8 @@ Files and data
 -------------------------------------------------------------------------------
 
 * [`apertium-bhw-eng.bhw-eng.dix`](apertium-bhw-eng.bhw-eng.dix) - Bilingual dictionary
-* [`apertium-bhw-eng.bhw-eng.t1x`](apertium-bhw-eng.bhw-eng.t1x) - Chunking rules for translating into English
-* [`apertium-bhw-eng.eng-bhw.t1x`](apertium-bhw-eng.eng-bhw.t1x) - Chunking rules for translating into Biak
-* [`apertium-bhw-eng.bhw-eng.t2x`](apertium-bhw-eng.bhw-eng.t2x) - Interchunk rules for translating into English
-* [`apertium-bhw-eng.eng-bhw.t2x`](apertium-bhw-eng.eng-bhw.t2x) - Interchunk rules for translating into Biak
-* [`apertium-bhw-eng.bhw-eng.t3x`](apertium-bhw-eng.bhw-eng.t3x) - Postchunk rules for translating into English
-* [`apertium-bhw-eng.eng-bhw.t3x`](apertium-bhw-eng.eng-bhw.t3x) - Postchunk rules for translating into Biak
+* [`apertium-bhw-eng.bhw-eng.rtx`](apertium-bhw-eng.bhw-eng.rtx) - Structural transfer rules for translating into English
+* [`apertium-bhw-eng.eng-bhw.rtx`](apertium-bhw-eng.eng-bhw.rtx) - Structural transfer rules for translating into Biak
 * [`apertium-bhw-eng.bhw-eng.lrx`](apertium-bhw-eng.bhw-eng.lrx) - Lexical selection rules for translating into English
 * [`apertium-bhw-eng.eng-bhw.lrx`](apertium-bhw-eng.eng-bhw.lrx) - Lexical selection rules for translating into Biak
 * [`modes.xml`](modes.xml) - Translation modes

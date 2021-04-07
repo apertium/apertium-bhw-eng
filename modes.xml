@@ -25,17 +25,9 @@
         <file name="bhw-eng.autolex.bin"/>
       </program>
 
-      <program name="apertium-transfer -b">
-        <file name="apertium-bhw-eng.bhw-eng.t1x"/>
-        <file name="bhw-eng.t1x.bin"/>
-      </program>
-      <program name="apertium-interchunk">
-        <file name="apertium-bhw-eng.bhw-eng.t2x"/>
-        <file name="bhw-eng.t2x.bin"/>
-      </program>
-      <program name="apertium-postchunk">
-        <file name="apertium-bhw-eng.bhw-eng.t3x"/>
-        <file name="bhw-eng.t3x.bin"/>
+
+      <program name="rtx-proc">
+        <file name="bhw-eng.rtx.bin"/>
       </program>
 
       <program name="lt-proc $1">
@@ -72,17 +64,9 @@
         <file name="eng-bhw.autolex.bin"/>
       </program>
 
-      <program name="apertium-transfer -b">
-        <file name="apertium-bhw-eng.eng-bhw.t1x"/>
-        <file name="eng-bhw.t1x.bin"/>
-      </program>
-      <program name="apertium-interchunk">
-        <file name="apertium-bhw-eng.eng-bhw.t2x"/>
-        <file name="eng-bhw.t2x.bin"/>
-      </program>
-      <program name="apertium-postchunk">
-        <file name="apertium-bhw-eng.eng-bhw.t3x"/>
-        <file name="eng-bhw.t3x.bin"/>
+
+      <program name="rtx-proc">
+        <file name="eng-bhw.rtx.bin"/>
       </program>
 
       <program name="lt-proc $1">
