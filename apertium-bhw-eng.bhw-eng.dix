@@ -21,6 +21,9 @@
     <sdef n="adj"             c="Adjective"/>
     <sdef n="prn"             c="Pronoun"/>
 
+    <sdef n="v"               c="verb"/>
+    <sdef n="tv"              c="transitive"/>
+
     <sdef n="attr"            c="Attributive"/>
     <sdef n="top"             c="Toponym"/>
     <sdef n="ant"             c="Anthroponym"/>
@@ -99,7 +102,39 @@
    <section id="main" type="standard">
       <!-- Define entries within <e> here. -->
       <e><p><l>ikak<s n="n"/></l>
-            <r>snake<s n="n"/></p></e>
+            <r>snake<s n="n"/></r></p></e>
+      <e><p><l>rofan<s n="n"/></l>
+            <r>dog<s n="n"/></r></p></e>
+      <e><p><l>marandan<s n="n"/></l>
+            <r>trip<s n="n"/></r></p></e>
+      <e><p><l>snari<s n="n"/></l>
+            <r>mother<s n="n"/></r></p></e>
+      <e><p><l>mnu<s n="n"/></l>
+            <r>village<s n="n"/></r></p></e>
+      <e><p><l>dares<s n="n"/></l>
+            <r>sun<s n="n"/></r></p></e>
+      <e><p><l>ras<s n="n"/></l>
+            <r>day<s n="n"/></r></p></e>
+      <e><p><l>mnggarm<s n="n"/></l>
+            <r>voice<s n="n"/></r></p></e>
+      <e><p><l>tahun<s n="n"/></l>
+            <r>year<s n="n"/></r></p></e>
+      
+      
+
+      <e><p><l>nas<s n="v"/><s n="tv"/></l>
+            <r>smell<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>mar<s n="v"/><s n="tv"/></l>
+            <r>die<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>snai<s n="v"/><s n="tv"/></l>
+            <r>enlighten<s n="vblex"/><s n="tv"/></r></p></e>
+
+      <e><p><l>ro<s n="pr"/></l>
+            <r>at<s n="pr"/></r></p></e>
+
+      <e><p><l>i<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></l><r>it<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></r></p></e>
+      
+
 
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
