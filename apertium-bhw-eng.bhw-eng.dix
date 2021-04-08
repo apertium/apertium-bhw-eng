@@ -23,6 +23,7 @@
 
     <sdef n="v"               c="verb"/>
     <sdef n="tv"              c="transitive"/>
+    <sdef n="iv"              c="intransitive"/>
 
     <sdef n="attr"            c="Attributive"/>
     <sdef n="top"             c="Toponym"/>
@@ -130,12 +131,18 @@
             <r>die<s n="vblex"/><s n="tv"/></r></p></e>
       <e><p><l>snai<s n="v"/><s n="tv"/></l>
             <r>enlighten<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>vark<s n="v"/><s n="iv"/></l>
+            <r>lie<s n="vblex"/><s n="iv"/></r></p></e>
 
       <e><p><l>ro<s n="pr"/></l>
             <r>at<s n="pr"/></r></p></e>
 
       <e><p><l>i<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></l><r>it<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></r></p></e>
+
       
+	  <!--
+	  <e><p><l>ne<s n="det"/><s n ="dem"/></l>
+			  <r>AAA</r></p></e> -->
 
 
 
