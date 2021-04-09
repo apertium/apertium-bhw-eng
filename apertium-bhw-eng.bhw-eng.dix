@@ -130,6 +130,10 @@
             <r>year<s n="n"/></r></p></e>
       <e><p><l>paik<s n="n"/></l>
             <r>month<s n="n"/></r></p></e>
+      <e><p><l>rusa<s n="n"/></l>
+            <r>deer<s n="n"/></r></p></e>
+      <e><p><l>Sepse<s n="n"/></l>
+            <r>Sepse<s n="n"/></r></p></e>
       
       <!--Verbs-->
       <e><p><l>nas<s n="v"/><s n="tv"/></l>
@@ -144,6 +148,14 @@
             <r>hot<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>mbrow<s n="v"/><s n="iv"/></l>
             <r>thirsty<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>ores<s n="v"/><s n="iv"/></l>
+            <r>stand<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>mnai<s n="v"/><s n="iv"/></l>
+            <r>stop<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>kain<s n="v"/><s n="iv"/></l>
+            <r>sit<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>fafyar<s n="v"/><s n="iv"/></l>
+            <r>tell<s n="vblex"/><s n="iv"/></r></p></e>
 
       <e><p><l>ro<s n="pr"/></l>
             <r>at<s n="pr"/></r></p></e>
@@ -222,6 +234,12 @@
       <!--Conjunction-->
       <e><p><l>inja<s n="cnjcoo"/></l>
             <r>so<s n="cnjadv"/></r></p></e>
+
+      <!-- Prepositions -->
+      <e><p><l>fa<s n="pr"/></l>
+            <r>to<s n="pr"/></r></p></e>
+      <e><p><l>do<s n="pr"/></l>
+            <r>at<s n="pr"/></r></p></e>
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
