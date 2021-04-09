@@ -134,6 +134,14 @@
             <r>deer<s n="n"/></r></p></e>
       <e><p><l>Sepse<s n="n"/></l>
             <r>Sepse<s n="n"/></r></p></e>
+      <e><p><l>Kormsamba<s n="n"/></l>
+            <r>Kormsamba<s n="n"/></r></p></e>
+      <e><p><l>rum<s n="n"/></l>
+            <r>house<s n="n"/></r></p></e>
+      <e><p><l>romawa<s n="n"/></l>
+            <r>boy<s n="n"/></r></p></e>
+      <e><p><l>snonsnon<s n="n"/></l>
+            <r>name<s n="n"/></r></p></e>
       
       <!--Verbs-->
       <e><p><l>nas<s n="v"/><s n="tv"/></l>
@@ -147,7 +155,7 @@
       <e><p><l>sam<s n="v"/><s n="iv"/></l>
             <r>hot<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>mbrow<s n="v"/><s n="iv"/></l>
-            <r>thirsty<s n="vblex"/><s n="iv"/></r></p></e>
+            <r>thirsty<s n="adj"/></r></p></e>
       <e><p><l>ores<s n="v"/><s n="iv"/></l>
             <r>stand<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>mnai<s n="v"/><s n="iv"/></l>
@@ -156,6 +164,12 @@
             <r>sit<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>fafyar<s n="v"/><s n="iv"/></l>
             <r>tell<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>bro<s n="v"/><s n="iv"/></l>
+            <r>empty<s n="adj"/></r></p></e>
+      <e><p><l>farkor<s n="v"/><s n="iv"/></l>
+            <r>study<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>fur<s n="v"/><s n="tv"/></l>
+            <r>build<s n="vblex"/><s n="tv"/></r></p></e>
 
       <e><p><l>ro<s n="pr"/></l>
             <r>at<s n="pr"/></r></p></e>
@@ -230,6 +244,8 @@
             <r>very<s n="adv"/></r></p></e>
       <e><p><l>monda<s n="adv"/></l>
             <r>only<s n="adv"/></r></p></e>
+      <e><p><l>sampe<s n="adv"/></l>
+            <r>then<s n="adv"/></r></p></e>
 
       <!--Conjunction-->
       <e><p><l>inja<s n="cnjcoo"/></l>
@@ -240,6 +256,8 @@
             <r>to<s n="pr"/></r></p></e>
       <e><p><l>do<s n="pr"/></l>
             <r>at<s n="pr"/></r></p></e>
+      <e><p><l>ra<s n="pr"/></l>
+            <r>until<s n="pr"/></r></p></e>
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
