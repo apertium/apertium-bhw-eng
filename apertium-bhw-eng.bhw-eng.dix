@@ -20,6 +20,14 @@
     <sdef n="ij"              c="Interjection"/>
     <sdef n="adj"             c="Adjective"/>
     <sdef n="prn"             c="Pronoun"/>
+    <sdef n="spc"             c="Specific"/>
+    <sdef n="sp"             c="Specific"/>
+    <sdef n="subj"            c="subject"/>
+    <sdef n="inc"             c="inclusive"/>
+    <sdef n="ex"              c="exclusive"/>
+    <sdef n="an"              c="animate"/>
+    <sdef n="inan"            c="inanimate"/>
+
 
     <sdef n="v"               c="verb"/>
     <sdef n="tv"              c="transitive"/>
@@ -47,13 +55,13 @@
     <sdef n="ut"              c="Utrum"/>
     <sdef n="f"               c="Feminine"/>
     <sdef n="m"               c="Masculine"/>
+    <sdef n="mf"              c="Masculine/Feminine"/>
     <sdef n="un"              c="No gender"/>
 
     <sdef n="sg"              c="Singular"/>
     <sdef n="du"              c="Dual"/>
     <sdef n="pc"              c="Paucal"/>
     <sdef n="pl"              c="Plural"/>
-    <sdef n="sp"              c="Singular / plural"/>
 
     <sdef n="ind"             c="Indefinite"/>
     <sdef n="def"             c="Definite"/>
@@ -123,28 +131,97 @@
       <e><p><l>paik<s n="n"/></l>
             <r>month<s n="n"/></r></p></e>
       
-      
-
+      <!--Verbs-->
       <e><p><l>nas<s n="v"/><s n="tv"/></l>
             <r>smell<s n="vblex"/><s n="tv"/></r></p></e>
-      <e><p><l>mar<s n="v"/><s n="tv"/></l>
+      <e><p><l>mar<s n="v"/><s n="iv"/></l>
             <r>die<s n="vblex"/><s n="tv"/></r></p></e>
       <e><p><l>snai<s n="v"/><s n="tv"/></l>
             <r>enlighten<s n="vblex"/><s n="tv"/></r></p></e>
       <e><p><l>vark<s n="v"/><s n="iv"/></l>
             <r>lie<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>sam<s n="v"/><s n="iv"/></l>
+            <r>hot<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>mbrow<s n="v"/><s n="iv"/></l>
+            <r>thirsty<s n="vblex"/><s n="iv"/></r></p></e>
 
       <e><p><l>ro<s n="pr"/></l>
             <r>at<s n="pr"/></r></p></e>
+      <!-- Pronouns -->
+      <e><p><l>aya<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></l>
+            <r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e><p><l>aw<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/></l>
+            <r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e><p><l>i<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></l>
+            <r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+      <!--Used he as default, might need to add R-L trans--> 
+      <e><p><l>ku<s n="prn"/><s n="pers"/><s n="p1"/><s n="du"/><s n="inc"/></l>
+            <r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e><p><l>nu<s n="prn"/><s n="pers"/><s n="p1"/><s n="du"/><s n="ex"/></l>
+            <r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e><p><l>mu<s n="prn"/><s n="pers"/><s n="p2"/><s n="du"/></l>
+            <r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e><p><l>su<s n="prn"/><s n="pers"/><s n="p3"/><s n="du"/></l>
+            <r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e><p><l>sko<s n="prn"/><s n="pers"/><s n="p3"/><s n="pc"/></l>
+            <r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e><p><l>ko<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/><s n="inc"/></l>
+            <r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e><p><l>inko<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/><s n="ex"/></l>
+            <r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e><p><l>mko<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/></l>
+            <r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e><p><l>si<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/><s n="an"/></l>
+            <r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e><p><l>na<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/><s n="inan"/></l>
+            <r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
 
-      <e><p><l>i<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></l><r>it<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></r></p></e>
+      <!-- Articles -->
+      <e><p><l>aya<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/><s n="spc"/></l>
+            <r>the<s n="det"/><s n="def"/><s n="sp"/></r></p></e>
+      <e><p><l>aw<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/><s n="spc"/></l>
+            <r>the<s n="det"/><s n="def"/><s n="sp"/></r></p></e>
+      <e><p><l>i<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="spc"/></l>
+            <r>the<s n="det"/><s n="def"/><s n="sp"/></r></p></e>
+      <e><p><l>ku<s n="prn"/><s n="pers"/><s n="p1"/><s n="du"/><s n="inc"/><s n="spc"/></l>
+            <r>the<s n="det"/><s n="def"/><s n="sp"/></r></p></e>
+      <e><p><l>nu<s n="prn"/><s n="pers"/><s n="p1"/><s n="du"/><s n="ex"/><s n="spc"/></l>
+            <r>the<s n="det"/><s n="def"/><s n="sp"/></r></p></e>
+      <e><p><l>mu<s n="prn"/><s n="pers"/><s n="p2"/><s n="du"/><s n="spc"/></l>
+            <r>the<s n="det"/><s n="def"/><s n="sp"/></r></p></e>
+      <e><p><l>su<s n="prn"/><s n="pers"/><s n="p3"/><s n="du"/><s n="spc"/></l>
+            <r>the<s n="det"/><s n="def"/><s n="sp"/></r></p></e>
+      <e><p><l>sko<s n="prn"/><s n="pers"/><s n="p3"/><s n="pc"/><s n="spc"/></l>
+            <r>the<s n="det"/><s n="def"/><s n="sp"/></r></p></e>
+      <e><p><l>ko<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/><s n="inc"/><s n="spc"/></l>
+            <r>the<s n="det"/><s n="def"/><s n="sp"/></r></p></e>
+      <e><p><l>inko<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/><s n="ex"/><s n="spc"/></l>
+            <r>the<s n="det"/><s n="def"/><s n="sp"/></r></p></e>
+      <e><p><l>mko<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/><s n="spc"/></l>
+            <r>the<s n="det"/><s n="def"/><s n="sp"/></r></p></e>
+      <e><p><l>si<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/><s n="an"/><s n="spc"/></l>
+            <r>the<s n="det"/><s n="def"/><s n="sp"/></r></p></e>
+      <e><p><l>na<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/><s n="inan"/><s n="spc"/></l>
+            <r>the<s n="det"/><s n="def"/><s n="sp"/></r></p></e>
 
       
 	  <!--
 	  <e><p><l>ne<s n="det"/><s n ="dem"/></l>
 			  <r>AAA</r></p></e> -->
 
+      <!-- Adverbs -->
+      <e><p><l>wer<s n="adv"/></l>
+            <r>again<s n="adv"/></r></p></e>
+      <e><p><l>kwar<s n="adv"/></l>
+            <r>already<s n="adv"/></r></p></e>
+      <e><p><l>kaku<s n="adv"/></l>
+            <r>very<s n="adv"/></r></p></e>
+      <e><p><l>monda<s n="adv"/></l>
+            <r>only<s n="adv"/></r></p></e>
 
+      <!--Conjunction-->
+      <e><p><l>inja<s n="cnjcoo"/></l>
+            <r>so<s n="cnjadv"/></r></p></e>
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
