@@ -4,6 +4,7 @@
     This rule chooses "energía" as the translation of "power" when it is preceded by "wind".
     Add your own rules within <rule> here, using the resources below as a guide
   -->
+  <!--
 
   <rule>
     <match lemma="wind"/>
@@ -11,6 +12,49 @@
       <select lemma="energía" tags="n.*"/>
     </match>
   </rule>
+  -->
+
+  <!-- If "vark" is followed by a postverb, it is likely to mean "lie" instead of "live"-->
+  <rule weight = "2">
+    <match lemma="vark" >
+      <select lemma="lie" tags="vblex.*"/>
+    </match>
+    <match tags="pv"/>
+  </rule>
+
+  <rule>
+    <match lemma="vark">
+      <select lemma="live" tags="vblex.*"/>
+    </match>
+  </rule>
+
+  <!--If "bon" is accompanied by the following words, choose "fruit" instead of "mountain"-->
+  
+  <rule>
+    <match lemma="bon">
+      <select lemma="mountain"/>
+    </match>
+  </rule>
+  
+  <rule weight="2">
+    <or>
+      <match lemma="pauk" tags="v.*"/>
+      <match lemma="an" tags="v.*"/>
+      <match lemma="srai" tags="n"/>
+    </or>
+    <repeat from="0" upto="5"><match/></repeat>
+    <match lemma="bon">
+      <select lemma="fruit"/>
+    </match>
+  </rule>
+  
+  <rule weight="2">
+    <match lemma="mars"/>
+    <match lemma="bon">
+      <select lemma="fruit"/>
+    </match>
+  </rule>
+
 </rules>
 
 <!--
