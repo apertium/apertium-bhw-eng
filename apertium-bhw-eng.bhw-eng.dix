@@ -156,39 +156,39 @@
       
       <!--Verbs-->
       <e><p><l>nas<s n="v"/><s n="tv"/></l>
-            <r>smell<s n="vblex"/><s n="tv"/></r></p></e>
+            <r>smell<s n="vblex"/></r></p></e>
       <e><p><l>mar<s n="v"/><s n="iv"/></l>
-            <r>die<s n="vblex"/><s n="tv"/></r></p></e>
+            <r>die<s n="vblex"/></r></p></e>
       <e><p><l>snai<s n="v"/><s n="tv"/></l>
-            <r>enlighten<s n="vblex"/><s n="tv"/></r></p></e>
+            <r>enlighten<s n="vblex"/></r></p></e>
       <e><p><l>vark<s n="v"/><s n="iv"/></l>
-            <r>lie<s n="vblex"/><s n="iv"/></r></p></e>
+            <r>lie<s n="vblex"/></r></p></e>
       <e><p><l>vark<s n="v"/><s n="iv"/></l>
-            <r>live<s n="vblex"/><s n="iv"/></r></p></e>
+            <r>live<s n="vblex"/></r></p></e>
       <e><p><l>sam<s n="v"/><s n="iv"/></l>
-            <r>hot<s n="vblex"/><s n="iv"/></r></p></e>
+            <r>hot<s n="vblex"/></r></p></e>
       <e><p><l>mbrow<s n="v"/><s n="iv"/></l>
             <r>thirsty<s n="adj"/></r></p></e>
       <e><p><l>ores<s n="v"/><s n="iv"/></l>
-            <r>stand<s n="vblex"/><s n="iv"/></r></p></e>
+            <r>stand<s n="vblex"/></r></p></e>
       <e><p><l>mnai<s n="v"/><s n="iv"/></l>
-            <r>stop<s n="vblex"/><s n="iv"/></r></p></e>
+            <r>stop<s n="vblex"/></r></p></e>
       <e><p><l>kain<s n="v"/><s n="iv"/></l>
-            <r>sit<s n="vblex"/><s n="iv"/></r></p></e>
+            <r>sit<s n="vblex"/></r></p></e>
       <e><p><l>fafyar<s n="v"/><s n="iv"/></l>
-            <r>tell<s n="vblex"/><s n="iv"/></r></p></e>
+            <r>tell<s n="vblex"/></r></p></e>
       <e><p><l>bro<s n="v"/><s n="iv"/></l>
             <r>empty<s n="adj"/></r></p></e>
       <e><p><l>farkor<s n="v"/><s n="iv"/></l>
-            <r>study<s n="vblex"/><s n="iv"/></r></p></e>
+            <r>study<s n="vblex"/></r></p></e>
       <e><p><l>fur<s n="v"/><s n="tv"/></l>
-            <r>build<s n="vblex"/><s n="tv"/></r></p></e>
+            <r>build<s n="vblex"/></r></p></e>
       <e><p><l>ba<s n="v"/><s n="iv"/></l>
             <r>big<s n="adj"/></r></p></e>
       <e><p><l>pauk<s n="v"/><s n="tv"/></l>
-            <r>peel<s n="vblex"/><s n = "tv"/></r></p></e>
+            <r>peel<s n="vblex"/></r></p></e>
       <e><p><l>an<s n="v"/><s n="tv"/></l>
-            <r>eat<s n="vblex"/><s n = "tv"/></r></p></e>
+            <r>eat<s n="vblex"/></r></p></e>
 
       <e><p><l>ro<s n="pr"/></l>
             <r>at<s n="pr"/></r></p></e>
