@@ -2,7 +2,7 @@
 !! ATTRIBUTE CATEGORIES
 !!!!!!!!!!!!!!!
 
-number = (ND sg) sg pl sp ND;
+number = (ND sg) sg du pc pl sp ND;
 gender = (GD m) m f mf GD;
 det_type = def ind dem itg;
 tense = pres past fut ifi pri fti;
@@ -11,7 +11,7 @@ tense = pres past fut ifi pri fti;
 !! OUTPUT PATTERNS
 !!!!!!!!!!!!!!!
 
-n: _.gender.number;
+n: _.number;
 adj: _.gender.number;
 det_default: _.det_type;
 det_def: _.det_type.number;
@@ -23,6 +23,7 @@ NP: _.number;
 !!!!!!!!!!!!!!!
 
 tense > tense : ifi past, pri pres, fti fut;
+number > number : du pl, pc pl;
 
 !!!!!!!!!!!!!!!
 !! MACROS
@@ -37,7 +38,9 @@ det: (if (1.det_type = def or 1.det_type = ind)
 !! REDUCTION RULES
 !!!!!!!!!!!!!!!
 
-NP -> n.$number adj { 2[gender=1.gender, number=1.number] _ 1 } ;
+! NP -> n.$number adj { 2[gender=1.gender, number=1.number] _ 1 } ;
+NP -> %n { %1 } ;
+! DP ->  
 
 ! Resources:
 ! http://wiki.apertium.org/wiki/Apertium-recursive
