@@ -8,6 +8,7 @@ det_type = def ind dem itg;
 tense = (TD past) pres past fut ifi pri fti TD;
 person = p1 p2 p3;
 prn_type = subj obj;
+spc = spc;
 
 !!!!!!!!!!!!!!!
 !! OUTPUT PATTERNS
@@ -48,8 +49,8 @@ det: (if (1.det_type = def or 1.det_type = ind)
 !! REDUCTION RULES
 !!!!!!!!!!!!!!!
 
-DET -> %prn.$number/sl.$spc { 1(det) } | 
-       %prn.$number/sl.$spc det.$dem { 2(det_def)[number=1.number/sl] };
+DET -> %prn.$number/sl.*.spc { 1(det) } | 
+       %prn.$number/sl.*.spc det.dem { 2(det_def)[number=1.number/sl] };
 NP -> %n { %1 } ;
 ! DP -> NP %prn { 2(det) _ 1[number=2.number/sl] } |
 DP -> NP %DET { 2(det) _ 1[number=2.number] } |
