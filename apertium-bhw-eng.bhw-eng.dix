@@ -250,6 +250,12 @@
             <r>the<s n="det"/><s n="def"/><s n="sp"/></r></p></e>
       <e><p><l>na<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/><s n="inan"/><s n="spc"/></l>
             <r>the<s n="det"/><s n="def"/><s n="sp"/></r></p></e>
+      <!-- Demonstratives -->
+      <e><p><l>ne<s n="det"/><s n="dem"/></l>
+            <r>this<s n="det"/><s n="dem"/></r></p></e>
+      <e><p><l>ya<s n="det"/><s n="dem"/></l>
+            <r>that<s n="det"/><s n="dem"/></r></p></e>
+	  
 
       <!--Possesive-->
       <e><p><l>det<s n="det"/><s n="pos"/></l>
@@ -269,6 +275,8 @@
             <r>only<s n="adv"/></r></p></e>
       <e><p><l>sampe<s n="adv"/></l>
             <r>then<s n="adv"/></r></p></e>
+      <e><p><l>yas<s n="adv"/></l>
+            <r>up here<s n="adv"/></r></p></e>
 
       <!--Conjunction-->
       <e><p><l>inja<s n="cnjcoo"/></l>

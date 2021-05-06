@@ -19,12 +19,14 @@ det_default: _.det_type;
 det_def: _.det_type.number;
 prn: _.prn_type.person.gender.number;
 v: _.tense;
-sent:_;
+adv: _;
+sent: _;
 
 NP: _.number;
 DP: _.person.number;
 VP: _.person.gender.number.tense;
 S: _;
+DET:_.det_type.person.number;
 
 !!!!!!!!!!!!!!!
 !! TAG-REWRITE RULES
@@ -46,10 +48,12 @@ det: (if (1.det_type = def or 1.det_type = ind)
 !! REDUCTION RULES
 !!!!!!!!!!!!!!!
 
-det_def -> %prn { 1(det) } | 
-           %prn det { 1(det)[det_type=dem, number=1.number/sl] };
+DET -> %prn.$number/sl.$spc { 1(det) } | 
+       %prn.$number/sl.$spc det.$dem { 2(det_def)[number=1.number/sl] };
 NP -> %n { %1 } ;
-DP -> NP %prn { 2(det) _ 1[number=2.number/sl] } |
+! DP -> NP %prn { 2(det) _ 1[number=2.number/sl] } |
+DP -> NP %DET { 2(det) _ 1[number=2.number] } |
+      NP %DET adv { 2(det) _ 1[number=2.number] _ 3 } |
       %prn { %1 } ;
 VP -> %v { 1 } |
       %v %prn { 1 _ 2[prn_type=obj] } |
