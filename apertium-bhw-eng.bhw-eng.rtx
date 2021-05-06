@@ -46,6 +46,8 @@ det: (if (1.det_type = def or 1.det_type = ind)
 !! REDUCTION RULES
 !!!!!!!!!!!!!!!
 
+det_def -> %prn { 1(det) } | 
+           %prn det { 1(det)[det_type=dem, number=1.number/sl] };
 NP -> %n { %1 } ;
 DP -> NP %prn { 2(det) _ 1[number=2.number/sl] } |
       %prn { %1 } ;
