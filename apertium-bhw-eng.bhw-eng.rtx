@@ -7,6 +7,7 @@ gender = (GD m) m f mf GD;
 det_type = def ind dem itg;
 tense = (TD past) pres past fut ifi pri fti TD;
 person = p1 p2 p3;
+prn_type = subj obj;
 
 !!!!!!!!!!!!!!!
 !! OUTPUT PATTERNS
@@ -16,12 +17,14 @@ n: _.number;
 adj: _.gender.number;
 det_default: _.det_type;
 det_def: _.det_type.number;
-prn: %;
+prn: _.prn_type.person.gender.number;
 v: _.tense;
+sent:_;
 
 NP: _.number;
 DP: _.person.number;
-VP: _.person.number.tense;
+VP: _.person.gender.number.tense;
+S: _;
 
 !!!!!!!!!!!!!!!
 !! TAG-REWRITE RULES
@@ -43,11 +46,14 @@ det: (if (1.det_type = def or 1.det_type = ind)
 !! REDUCTION RULES
 !!!!!!!!!!!!!!!
 
-! NP -> n.$number adj { 2[gender=1.gender, number=1.number] _ 1 } ;
 NP -> %n { %1 } ;
-DP -> NP %prn { 2(det) _ 1[number=2.number/sl] } ;
+DP -> NP %prn { 2(det) _ 1[number=2.number/sl] } |
+      %prn { %1 } ;
 VP -> %v { 1 } |
+      %v %prn { 1 _ 2[prn_type=obj] } |
       %v DP { 1 _ 2 } ;
+S -> DP VP { 1 _ 2 } |
+     VP { prpers@prn.subj.[1.person].[1.gender].[1.number>number] _ 1} ;
 
 ! Resources:
 ! http://wiki.apertium.org/wiki/Apertium-recursive
