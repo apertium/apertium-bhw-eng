@@ -27,6 +27,7 @@
     <sdef n="ex"              c="exclusive"/>
     <sdef n="an"              c="animate"/>
     <sdef n="inan"            c="inanimate"/>
+    <sdef n="ij"              c="intejection"/>
 
 
     <sdef n="v"               c="verb"/>
@@ -155,7 +156,56 @@
             <r>mountain<s n="n"/></r></p></e>
       <e><p><l>ina<s n="n"/></l>
             <r>girl<s n="n"/></r></p></e>
-      
+      <e><p><l>abris<s n="n"/></l>
+            <r>grass<s n="n"/></r></p></e>
+      <e><p><l>abyab<s n="n"/></l>
+            <r>cave<s n="n"/></r></p></e>
+      <e><p><l>acara<s n="n"/></l>
+            <r>party<s n="n"/></r></p></e>
+      <e><p><l>afyak<s n="n"/></l>
+            <r>pillow<s n="n"/></r></p></e>
+      <e><p><l>ai<s n="n"/></l>
+            <r>wood<s n="n"/></r></p></e>
+      <e><p><l>aibe<s n="n"/></l>
+            <r>coffin<s n="n"/></r></p></e>
+      <e><p><l>aiknam<s n="n"/></l>
+            <r>tree<s n="n"/></r></p></e>
+      <e><p><l>aimun<s n="n"/></l>
+            <r>firewood<s n="n"/></r></p></e>      
+      <e><p><l>bo<s n="n"/></l>
+            <r>top<s n="n"/></r></p></e>
+      <e><p><l>bo<s n="n"/></l>
+            <r>hill<s n="n"/></r></p></e>
+      <e><p><l>ainkyon<s n="n"/></l>
+            <r>stick<s n="n"/></r></p></e>
+      <e><p><l>aiwan<s n="n"/></l>
+            <r>animal<s n="n"/></r></p></e>
+      <e><p><l>alamat<s n="n"/></l>
+            <r>address<s n="n"/></r></p></e>
+      <e><p><l>allah<s n="n"/></l>
+            <r>God<s n="n"/></r></p></e>
+      <e><p><l>amen<s n="n"/></l>
+            <r>bamboo<s n="n"/></r></p></e>
+      <e><p><l>Amerika<s n="n"/></l>
+            <r>America<s n="n"/></r></p></e>
+      <e><p><l>anak<s n="n"/></l>
+            <r>child<s n="n"/></r></p></e>
+      <e><p><l>ananun<s n="n"/></l>
+            <r>message<s n="n"/></r></p></e>
+      <e><p><l>andoi<s n="n"/></l>
+            <r>seaweed<s n="n"/></r></p></e>
+      <e><p><l>angkanken<s n="n"/></l>
+            <r>moss<s n="n"/></r></p></e>
+      <e><p><l>anum<s n="n"/></l>
+            <r>wood<s n="n"/></r></p></e>
+      <e><p><l>apen<s n="n"/></l>
+            <r>roast<s n="n"/></r></p></e>
+      <e><p><l>apus<s n="n"/></l>
+            <r>grandparent<s n="n"/></r></p></e>
+      <e><p><l>apus<s n="n"/></l>
+            <r>grandchild<s n="n"/></r></p></e>
+      <e><p><l>ari<s n="n"/></l>
+            <r>Sunday<s n="n"/></r></p></e>
       <!--Verbs-->
       <e><p><l>nas<s n="v"/><s n="tv"/></l>
             <r>smell<s n="vblex"/></r></p></e>
@@ -277,10 +327,37 @@
             <r>then<s n="adv"/></r></p></e>
       <e><p><l>yas<s n="adv"/></l>
             <r>up here<s n="adv"/></r></p></e>
+      <e><p><l>ba<s n="adv"/></l>
+            <r>not<s n="adv"/></r></p></e>     
 
       <!--Conjunction-->
       <e><p><l>inja<s n="cnjcoo"/></l>
             <r>so<s n="cnjadv"/></r></p></e>
+      <e><p><l>bo<s n="cnjcoo"/></l>
+            <r>and<s n="cnjcoo"/></r></p></e>
+      <e><p><l>ma<s n="cnjcoo"/></l>
+            <r>and<s n="cnjcoo"/></r></p></e>
+      <e><p><l>kukr<s n="cnjsub"/></l>
+            <r>because<s n="cnjsub"/></r></p></e>
+      <e><p><l>kukru<s n="cnjsub"/></l>
+            <r>because<s n="cnjsub"/></r></p></e>
+      <e><p><l>infa<s n="cnjcoo"/></l>
+            <r>so<s n="cnjadv"/></r></p></e>
+      <e><p><l>indya<s n="cnjcoo"/></l>
+            <r>so<s n="cnjadv"/></r></p></e>
+      <e><p><l>inja<s n="cnjsub"/></l>
+            <r>while<s n="cnjsub"/></r></p></e>
+      <e><p><l>voi<s n="cnjcoo"/></l>
+            <r>but<s n="cnjcoo"/></r></p></e>
+      <e><p><l>imboi<s n="cnjcoo"/></l>
+            <r>but<s n="cnjcoo"/></r></p></e>
+      <e><p><l>indo<s n="cnjsub"/></l>
+            <r>then<s n="cnjadv"/></r></p></e>
+      <e><p><l>ido<s n="cnjsub"/></l>
+            <r>when<s n="cnjsub"/></r></p></e>
+      
+      
+      
 
       <!-- Prepositions -->
       <e><p><l>fa<s n="pr"/></l>
@@ -293,6 +370,14 @@
       <!-- Post Verbs -->
       <e><p><l>wark<s n="pv"/></l>
             <r>guard<s n="v"/><s n="tv"/></r></p></e>
+
+      <!-- Interjections-->
+      <e><p><l>ba<s n="ij"/></l>
+            <r>oh<s n="ij"/></r></p></e>
+      <e><p><l>boo<s n="ij"/></l>
+            <r>oh<s n="ij"/></r></p></e>
+      <e><p><l>o<s n="ij"/></l>
+            <r>oh<s n="ij"/></r></p></e>
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
