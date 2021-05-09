@@ -21,13 +21,12 @@
     <sdef n="adj"             c="Adjective"/>
     <sdef n="prn"             c="Pronoun"/>
     <sdef n="spc"             c="Specific"/>
-    <sdef n="sp"             c="Specific"/>
+    <sdef n="sp"              c="Specific"/>
     <sdef n="subj"            c="subject"/>
     <sdef n="inc"             c="inclusive"/>
     <sdef n="ex"              c="exclusive"/>
     <sdef n="an"              c="animate"/>
     <sdef n="inan"            c="inanimate"/>
-    <sdef n="ij"              c="intejection"/>
 
 
     <sdef n="v"               c="verb"/>
@@ -206,6 +205,47 @@
             <r>grandchild<s n="n"/></r></p></e>
       <e><p><l>ari<s n="n"/></l>
             <r>Sunday<s n="n"/></r></p></e>
+      <e><p><l>sim<s n="n"/></l>
+            <r>bedroom<s n="n"/></r></p></e>    
+      <e><p><l>binsar<s n="n"/></l>
+            <r>old woman<s n="n"/></r></p></e> 
+      <e><p><l>insar<s n="n"/></l>
+            <r>old woman<s n="n"/></r></p></e> 
+      <e><p><l>wemin<s n="n"/></l>
+            <r>leg<s n="n"/></r></p></e> 
+      <e><p><l>korben<s n="n"/></l>
+            <r>dragon<s n="n"/></r></p></e> 
+      <e><p><l>kpu<s n="n"/></l>
+            <r>grandchild<s n="n"/></r></p></e> 
+      <e><p><l>swan<s n="n"/></l>
+            <r>sea<s n="n"/></r></p></e> 
+      <e><p><l>fioro<s n="n"/></l>
+            <r>long time<s n="n"/></r></p></e> 
+      <e><p><l>knafofr<s n="n"/></l>
+            <r>cheek<s n="n"/></r></p></e> 
+      <e><p><l>romamkun<s n="n"/></l>
+            <r>little child<s n="n"/></r></p></e> 
+      <e><p><l>mkamor<s n="n"/></l>
+            <r>eye<s n="n"/></r></p></e> 
+      <e><p><l>majelis<s n="n"/></l>
+            <r>deacon<s n="n"/></r></p></e> 
+      <e><p><l>jemaat<s n="n"/></l>
+            <r>congregation<s n="n"/></r></p></e> 
+      <e><p><l>kero<s n="n"/></l>
+            <r>little place<s n="n"/></r></p></e> 
+      <e><p><l>gelas<s n="n"/></l>
+            <r>glass<s n="n"/></r></p></e> 
+      <e><p><l>wos<s n="n"/></l>
+            <r>word<s n="n"/></r></p></e> 
+      <e><p><l>Vyak<s n="n"/></l>
+            <r>Biak<s n="n"/></r></p></e> 
+      <e><p><l>sup<s n="n"/></l>
+            <r>land<s n="n"/></r></p></e> 
+      <e><p><l>fawawi<s n="n"/></l>
+            <r>knowledge<s n="n"/></r></p></e> 
+      <e><p><l>kam<s n="n"/></l>
+            <r>all<s n="n"/></r></p></e> 
+
       <!--Verbs-->
       <e><p><l>nas<s n="v"/><s n="tv"/></l>
             <r>smell<s n="vblex"/></r></p></e>
@@ -241,6 +281,42 @@
             <r>peel<s n="vblex"/></r></p></e>
       <e><p><l>an<s n="v"/><s n="tv"/></l>
             <r>eat<s n="vblex"/></r></p></e>
+      <e><p><l>swarepen<s n="v"/><s n="tv"/></l>
+            <r>remember<s n="vblex"/></r></p></e>
+      <e><p><l>rok<s n="v"/><s n="iv"/></l>
+            <r>hear<s n="vblex"/></r></p></e>
+      <e><p><l>rok<s n="v"/><s n="iv"/></l>
+            <r>sound<s n="vblex"/></r></p></e>
+      <e><p><l>bur<s n="v"/><s n="iv"/></l>
+            <r>leave<s n="vblex"/></r></p></e>
+      <e><p><l>na<s n="v"/><s n="tv"/></l>
+            <r>have<s n="vblex"/></r></p></e>
+      <e><p><l>fawi<s n="v"/><s n="iv"/></l>
+            <r>know<s n="vblex"/></r></p></e>
+      <e><p><l>skop<s n="v"/><s n="tv"/></l>
+            <r>kick<s n="vblex"/></r></p></e>
+      <e><p><l>be<s n="v"/><s n="tv"/></l>
+            <r>become<s n="vblex"/></r></p></e>
+      <e><p><l>kfin<s n="v"/><s n="tv"/></l>
+            <r>lead<s n="vblex"/></r></p></e>
+      <e><p><l>mam<s n="v"/><s n="tv"/></l>
+            <r>see<s n="vblex"/></r></p></e>
+      <e><p><l>rew<s n="v"/><s n="tv"/></l>
+            <r>lick<s n="vblex"/></r></p></e>
+      <e><p><l>sun<s n="v"/><s n="iv"/></l>
+            <r>enter<s n="vblex"/></r></p></e>
+      <e><p><l>pan<s n="v"/><s n="tv"/></l>
+            <r>touch<s n="vblex"/></r></p></e>
+      <e><p><l>dwark<s n="v"/><s n="tv"/></l>
+            <r>block<s n="vblex"/></r></p></e>
+      <e><p><l>awos<s n="v"/><s n="iv"/></l>
+            <r>speak<s n="vblex"/></r></p></e>
+      <e><p><l>kar<s n="v"/><s n="iv"/></l>
+            <r>cut<s n="vblex"/></r></p></e>
+      <e><p><l>vyar<s n="v"/><s n="iv"/></l>
+            <r>swell<s n="vblex"/></r></p></e>
+      <e><p><l>ser<s n="v"/><s n="tv"/></l>
+            <r>fill<s n="vblex"/></r></p></e>
 
       <e><p><l>ro<s n="pr"/></l>
             <r>at<s n="pr"/></r></p></e>
@@ -307,7 +383,7 @@
             <r>that<s n="det"/><s n="dem"/></r></p></e>
 	  
 
-      <!--Possesive-->
+      <!--Possessive-->
       <e><p><l>det<s n="det"/><s n="pos"/></l>
             <r>prpers<s n="det"/><s n="pos"/></r></p></e>
 	  <!--
@@ -328,7 +404,9 @@
       <e><p><l>yas<s n="adv"/></l>
             <r>up here<s n="adv"/></r></p></e>
       <e><p><l>ba<s n="adv"/></l>
-            <r>not<s n="adv"/></r></p></e>     
+            <r>not<s n="adv"/></r></p></e>   
+      <e><p><l>arwo<s n="adv"/></l>
+            <r>adv<s n="adv"/></r></p></e>   
 
       <!--Conjunction-->
       <e><p><l>inja<s n="cnjcoo"/></l>
@@ -355,6 +433,12 @@
             <r>then<s n="cnjadv"/></r></p></e>
       <e><p><l>ido<s n="cnjsub"/></l>
             <r>when<s n="cnjsub"/></r></p></e>
+      <e><p><l>bape<s n="cnjsub"/></l>
+            <r>but<s n="cnjsub"/></r></p></e>
+      <e><p><l>isof<s n="cnjsub"/></l>
+            <r>until<s n="cnjsub"/></r></p></e>
+      <e><p><l>kurbei<s n="cnjsub"/></l>
+            <r>however<s n="cnjsub"/></r></p></e>
       
       
       
