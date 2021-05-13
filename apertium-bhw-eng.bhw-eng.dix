@@ -280,6 +280,34 @@
       <e><p><l>gereja<s n="n"/></l>
             <r>church<s n="n"/></r></p></e>  
 
+      <!--Inalienable Noun Stems-->
+      <e><p><l>we<s n="n"/></l>
+            <r>leg<s n="n"/></r></p></e>  
+      <e><p><l>sne<s n="n"/></l>
+            <r>belly<s n="n"/></r></p></e>  
+      <e><p><l>sva<s n="n"/></l>
+            <r>mouth<s n="n"/></r></p></e> 
+      <e><p><l>mka<s n="n"/></l>
+            <r>eye<s n="n"/></r></p></e>   
+      <e><p><l>vru<s n="n"/></l>
+            <r>head<s n="n"/></r></p></e>  
+      <e><p><l>vra<s n="n"/></l>
+            <r>arm<s n="n"/></r></p></e> 
+      <e><p><l>fi<s n="n"/></l>
+            <r>vagina<s n="n"/></r></p></e>   
+      <e><p><l>si<s n="n"/></l>
+            <r>penis<s n="n"/></r></p></e>  
+      <e><p><l>do<s n="n"/></l>
+            <r>inside<s n="n"/></r></p></e>  
+      <e><p><l>na<s n="n"/></l>
+            <r>tooth<s n="n"/></r></p></e>  
+      <e><p><l>snoni<s n="n"/></l>
+            <r>nose<s n="n"/></r></p></e>  
+      <e><p><l>sasu<s n="n"/></l>
+            <r>neck<s n="n"/></r></p></e> 
+      <e><p><l>don<s n="n"/></l>
+            <r>inside<s n="n"/></r></p></e>   
+
       <!--Verbs-->
       <e><p><l>nas<s n="v"/><s n="tv"/></l>
             <r>smell<s n="vblex"/></r></p></e>

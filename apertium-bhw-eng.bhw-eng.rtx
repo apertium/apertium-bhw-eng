@@ -9,6 +9,10 @@ tense = (TD past) pres past fut ifi pri fti TD;
 person = p1 p2 p3;
 prn_type = subj obj;
 spc = spc;
+pos = pos;
+possessor = px1sg px1duex px1duinc px1pc px1plex px1plinc 
+            px2sg px2du px2pc px2pl px2plan px2plinan 
+            px3sg px3du px3pc px3plan px3plinan;
 
 !!!!!!!!!!!!!!!
 !! OUTPUT PATTERNS
@@ -33,8 +37,13 @@ DET:_.det_type.person.number;
 !! TAG-REWRITE RULES
 !!!!!!!!!!!!!!!
 
-! tense > tense : ifi past, pri pres, fti fut;
 number > number : du pl, pc pl;
+possessor > person: px1sg p1, px1duex p1, px1duinc p1, px1pc p1, px1plex p1, px1plinc p1,
+            px2sg p2, px2du p2, px2pc p2, px2pl p2, px2plan p2, px2plinan p2,
+            px3sg p3, px3du p3, px3pc p3, px3plan p3, px3plinan p3;
+possessor > number: px1sg sg, px1duex pl, px1duinc pl, px1pc pl, px1plex pl, px1plinc pl,
+            px2sg sg, px2du pl, px2pc pl, px2pl pl, px2plan pl, px2plinan pl,
+            px3sg sg, px3du pl, px3pc pl, px3plan pl, px3plinan pl;
 
 !!!!!!!!!!!!!!!
 !! MACROS
@@ -54,7 +63,8 @@ DET -> %prn.$number/sl.*.spc { 1(det) } |
 NP -> %n { %1 } ;
 
 DP -> NP %DET { 2(det) _ 1[number=2.number] } |
-      %prn { %1 } ;
+      %prn { %1 } |
+      1: %n.pos.[possessor].[number] { prpers@det.pos.[1.possessor>person].[mf].[1.possessor>number] _ 1 } ;
 VP -> %v { 1 } |
       %v %prn { 1 _ 2[prn_type=obj] } |
       %v DP { 1 _ 2 } ;
