@@ -45,6 +45,7 @@ possessor > number: px1sg sg, px1duex pl, px1duinc pl, px1pc pl, px1plex pl, px1
             px2sg sg, px2du pl, px2pc pl, px2pl pl, px2plan pl, px2plinan pl,
             px3sg sg, px3du pl, px3pc pl, px3plan pl, px3plinan pl;
 
+
 !!!!!!!!!!!!!!!
 !! MACROS
 !!!!!!!!!!!!!!!
@@ -64,7 +65,14 @@ NP -> %n { %1 } ;
 
 DP -> NP %DET { 2(det) _ 1[number=2.number] } |
       %prn { %1 } |
-      1: %n.pos.[possessor].[number] { prpers@det.pos.[1.possessor>person].[mf].[1.possessor>number] _ 1 } ;
+      %NP { %1 } | 
+      1: %n.pos.[possessor].[number] { prpers@det.pos.[1.possessor>person].
+            [(if (1.possessor>person = p3 & 1.possessor>number = sg) m else mf)].
+            [1.possessor>number] _ 1 } |
+      NP %det.pos.[possessor].[number]  { prpers@det.pos.[2.possessor>person].
+            [(if (2.possessor>person = p3 & 2.possessor>number = sg) m else mf)].
+            [2.possessor>number] _ 1[number=2.number] } |
+      %DP NP det.pos.[possessor].[number] { 1[number=3.possessor>number] 's@gen _ 2[number=3.number] } ;
 VP -> %v { 1 } |
       %v %prn { 1 _ 2[prn_type=obj] } |
       %v DP { 1 _ 2 } ;

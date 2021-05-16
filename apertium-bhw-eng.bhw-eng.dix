@@ -141,6 +141,8 @@
             <r>house<s n="n"/></r></p></e>
       <e><p><l>romawa<s n="n"/></l>
             <r>boy<s n="n"/></r></p></e>
+      <e><p><l>roma<s n="n"/></l>
+            <r>boy<s n="n"/></r></p></e>
       <e><p><l>snonsnon<s n="n"/></l>
             <r>name<s n="n"/></r></p></e>
       <e><p><l>snewar<s n="n"/></l>
@@ -279,6 +281,24 @@
             <r>love<s n="n"/></r></p></e>  
       <e><p><l>gereja<s n="n"/></l>
             <r>church<s n="n"/></r></p></e>  
+      <e><p><l>snon<s n="n"/></l>
+            <r>man<s n="n"/></r></p></e> 
+      <e><p><l>mob<s n="n"/></l>
+            <r>place<s n="n"/></r></p></e>   
+      <e><p><l>wos<s n="n"/></l>
+            <r>word<s n="n"/></r></p></e>   
+      <e><p><l>bar<s n="n"/></l>
+            <r>part<s n="n"/></r></p></e>  
+      <e><p><l>kawasa<s n="n"/></l>
+            <r>people<s n="n"/></r></p></e> 
+      <e><p><l>fafyar<s n="n"/></l>
+            <r>story<s n="n"/></r></p></e> 
+      <e><p><l>keret<s n="n"/></l>
+            <r>clan<s n="n"/></r></p></e> 
+      <e><p><l>bin<s n="n"/></l>
+            <r>woman<s n="n"/></r></p></e> 
+      <e><p><l>fmar<s n="n"/></l>
+            <r>genitals<s n="n"/></r></p></e> 
 
       <!--Inalienable Noun Stems-->
       <e><p><l>we<s n="n"/></l>
@@ -306,7 +326,12 @@
       <e><p><l>sasu<s n="n"/></l>
             <r>neck<s n="n"/></r></p></e> 
       <e><p><l>don<s n="n"/></l>
-            <r>inside<s n="n"/></r></p></e>   
+            <r>inside<s n="n"/></r></p></e>  
+      <e><p><l>sno<s n="n"/></l>
+            <r>name<s n="n"/></r></p></e> 
+      <e><p><l>swa<s n="n"/></l>
+            <r>spouse<s n="n"/></r></p></e> 
+      
 
       <!--Verbs-->
       <e><p><l>nas<s n="v"/><s n="tv"/></l>
@@ -329,7 +354,9 @@
             <r>stop<s n="vblex"/></r></p></e>
       <e><p><l>kain<s n="v"/><s n="iv"/></l>
             <r>sit<s n="vblex"/></r></p></e>
-      <e><p><l>fafyar<s n="v"/><s n="iv"/></l>
+      <e><p><l>fafyar<s n="v"/><s n="tv"/></l>
+            <r>tell<s n="vblex"/></r></p></e>
+      <e><p><l>fawar<s n="v"/><s n="tv"/></l>
             <r>tell<s n="vblex"/></r></p></e>
       <e><p><l>bro<s n="v"/><s n="iv"/></l>
             <r>empty<s n="adj"/></r></p></e>
@@ -379,6 +406,11 @@
             <r>swell<s n="vblex"/></r></p></e>
       <e><p><l>ser<s n="v"/><s n="tv"/></l>
             <r>fill<s n="vblex"/></r></p></e>
+      <e><p><l>so<s n="v"/><s n="tv"/></l>
+            <r>follow<s n="vblex"/></r></p></e>
+      <e><p><l>kofen<s n="v"/><s n="tv"/></l>
+            <r>say<s n="vblex"/></r></p></e>
+      
 
       <e><p><l>ro<s n="pr"/></l>
             <r>at<s n="pr"/></r></p></e>
@@ -468,7 +500,9 @@
       <e><p><l>ba<s n="adv"/></l>
             <r>not<s n="adv"/></r></p></e>   
       <e><p><l>arwo<s n="adv"/></l>
-            <r>adv<s n="adv"/></r></p></e>   
+            <r>morning<s n="adv"/></r></p></e>   
+      <e><p><l>insape<s n="adv"/></l>
+            <r>then<s n="adv"/></r></p></e> 
 
       <!--Conjunction-->
       <e><p><l>inja<s n="cnjcoo"/></l>
@@ -485,11 +519,15 @@
             <r>so<s n="cnjadv"/></r></p></e>
       <e><p><l>indya<s n="cnjcoo"/></l>
             <r>so<s n="cnjadv"/></r></p></e>
+      <e><p><l>nja<s n="cnjcoo"/></l>
+            <r>so<s n="cnjadv"/></r></p></e>
       <e><p><l>inja<s n="cnjsub"/></l>
             <r>while<s n="cnjsub"/></r></p></e>
       <e><p><l>voi<s n="cnjcoo"/></l>
             <r>but<s n="cnjcoo"/></r></p></e>
       <e><p><l>imboi<s n="cnjcoo"/></l>
+            <r>but<s n="cnjcoo"/></r></p></e>
+      <e><p><l>boi<s n="cnjcoo"/></l>
             <r>but<s n="cnjcoo"/></r></p></e>
       <e><p><l>indo<s n="cnjsub"/></l>
             <r>then<s n="cnjadv"/></r></p></e>
@@ -512,6 +550,24 @@
             <r>at<s n="pr"/></r></p></e>
       <e><p><l>ra<s n="pr"/></l>
             <r>until<s n="pr"/></r></p></e>
+      <e><p><l>be<s n="pr"/></l>
+            <r>to<s n="pr"/></r></p></e>
+      <e><p><l>ro<s n="pr"/></l>
+            <r>at<s n="pr"/></r></p></e>
+      <e><p><l>ra<s n="pr"/></l>
+            <r>along<s n="pr"/></r></p></e>
+      <e><p><l>ve<s n="pr"/></l>
+            <r>to<s n="pr"/></r></p></e>
+      <e><p><l>kukr<s n="pr"/></l>
+            <r>with<s n="pr"/></r></p></e>
+      <e><p><l>snar<s n="pr"/></l>
+            <r>because of<s n="pr"/></r></p></e>
+      <e><p><l>ker<s n="pr"/></l>
+            <r>from<s n="pr"/></r></p></e>
+      <e><p><l>bur<s n="pr"/></l>
+            <r>from<s n="pr"/></r></p></e>
+      <e><p><l>yov<s n="pr"/></l>
+            <r>to<s n="pr"/></r></p></e>
 
       <!-- Post Verbs -->
       <e><p><l>wark<s n="pv"/></l>
