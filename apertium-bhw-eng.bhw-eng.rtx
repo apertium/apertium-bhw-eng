@@ -2,7 +2,7 @@
 !! ATTRIBUTE CATEGORIES
 !!!!!!!!!!!!!!!
 
-number = (ND sg) sg du pc pl sp ND;
+number = (ND sg) sg du pc pl sp plinan plan ND;
 gender = (GD m) m f mf GD;
 det_type = def ind dem itg;
 tense = (TD past) pres past fut ifi pri fti TD;
@@ -37,7 +37,7 @@ DET:_.det_type.person.number;
 !! TAG-REWRITE RULES
 !!!!!!!!!!!!!!!
 
-number > number : du pl, pc pl;
+number > number : du pl, pc pl, plinan pl, plan pl;
 possessor > person: px1sg p1, px1duex p1, px1duinc p1, px1pc p1, px1plex p1, px1plinc p1,
             px2sg p2, px2du p2, px2pc p2, px2pl p2, px2plan p2, px2plinan p2,
             px3sg p3, px3du p3, px3pc p3, px3plan p3, px3plinan p3;
@@ -72,7 +72,8 @@ DP -> NP %DET { 2(det) _ 1[number=2.number] } |
       NP %det.pos.[possessor].[number]  { prpers@det.pos.[2.possessor>person].
             [(if (2.possessor>person = p3 & 2.possessor>number = sg) m else mf)].
             [2.possessor>number] _ 1[number=2.number] } |
-      %DP NP det.pos.[possessor].[number] { 1[number=3.possessor>number] 's@gen _ 2[number=3.number] } ;
+      2: %DP NP det.pos.[possessor].[number] { 1[number=3.possessor>number] 's@gen _ 2[number=3.number] } |
+      NP %DP det.pos.[possessor].[number] { 2[number=3.possessor>number] 's@gen _ 1[number=3.number] } ;
 VP -> %v { 1 } |
       %v %prn { 1 _ 2[prn_type=obj] } |
       %v DP { 1 _ 2 } ;
