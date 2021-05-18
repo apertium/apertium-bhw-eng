@@ -299,6 +299,38 @@
             <r>woman<s n="n"/></r></p></e> 
       <e><p><l>fmar<s n="n"/></l>
             <r>genitals<s n="n"/></r></p></e> 
+      <e><p><l>randip<s n="n"/></l>
+            <r>pig<s n="n"/></r></p></e> 
+      <e><p><l>inai<s n="n"/></l>
+            <r>daughter<s n="n"/></r></p></e> 
+      <e><p><l>afyak<s n="n"/></l>
+            <r>pillow<s n="n"/></r></p></e> 
+      <e><p><l>desa<s n="n"/></l>
+            <r>village<s n="n"/></r></p></e> 
+      <e><p><l>doser<s n="n"/></l>
+            <r>tractor<s n="n"/></r></p></e> 
+      <e><p><l>dow<s n="n"/></l>
+            <r>song<s n="n"/></r></p></e>
+      <e><p><l>doya<s n="n"/></l>
+            <r>song<s n="n"/></r></p></e>  
+      <e><p><l>duber<s n="n"/></l>
+            <r>spring<s n="n"/></r></p></e> 
+      <e><p><l>dunia<s n="n"/></l>
+            <r>earth<s n="n"/></r></p></e> 
+      <e><p><l>eknik<s n="n"/></l>
+            <r>brother<s n="n"/></r></p></e> 
+      <e><p><l>Enggeres<s n="n"/></l>
+            <r>England<s n="n"/></r></p></e> 
+      <e><p><l>ew<s n="n"/></l>
+            <r>step<s n="n"/></r></p></e> 
+      <e><p><l>eyuser<s n="n"/></l>
+            <r>song<s n="n"/></r></p></e> 
+      <e><p><l>faduman<s n="n"/></l>
+            <r>pearl<s n="n"/></r></p></e> 
+      <e><p><l>kma<s n="n"/></l>
+            <r>father<s n="n"/></r></p></e> 
+      <e><p><l>knam<s n="n"/></l>
+            <r>tree<s n="n"/></r></p></e> 
 
       <!--Inalienable Noun Stems-->
       <e><p><l>we<s n="n"/></l>
@@ -410,6 +442,12 @@
             <r>follow<s n="vblex"/></r></p></e>
       <e><p><l>kofen<s n="v"/><s n="tv"/></l>
             <r>say<s n="vblex"/></r></p></e>
+      <e><p><l>buk<s n="v"/><s n="tv"/></l>
+            <r>marry<s n="vblex"/></r></p></e>
+      <e><p><l>un<s n="v"/><s n="tv"/></l>
+            <r>take<s n="vblex"/></r></p></e>
+      <e><p><l>mbran<s n="v"/><s n="iv"/></l>
+            <r>walk<s n="vblex"/></r></p></e>
       
 
       <e><p><l>ro<s n="pr"/></l>
@@ -539,6 +577,8 @@
             <r>until<s n="cnjsub"/></r></p></e>
       <e><p><l>kurbei<s n="cnjsub"/></l>
             <r>however<s n="cnjsub"/></r></p></e>
+      <e><p><l>fama<s n="cnjcoo"/></l>
+            <r>but<s n="cnjcoo"/></r></p></e>
       
       
       
@@ -567,6 +607,10 @@
       <e><p><l>bur<s n="pr"/></l>
             <r>from<s n="pr"/></r></p></e>
       <e><p><l>yov<s n="pr"/></l>
+            <r>to<s n="pr"/></r></p></e>
+      <e><p><l>faro<s n="pr"/></l>
+            <r>for<s n="pr"/></r></p></e>
+      <e><p><l>ke<s n="pr"/></l>
             <r>to<s n="pr"/></r></p></e>
 
       <!-- Post Verbs -->
