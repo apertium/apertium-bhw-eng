@@ -13,23 +13,25 @@ pos = pos;
 possessor = px1sg px1duex px1duinc px1pc px1plex px1plinc 
             px2sg px2du px2pc px2pl px2plan px2plinan 
             px3sg px3du px3pc px3plan px3plinan;
+sint = sint;
 
 !!!!!!!!!!!!!!!
 !! OUTPUT PATTERNS
 !!!!!!!!!!!!!!!
 
 n: _.number;
-adj: _.gender.number;
 det_default: _.det_type;
 det_def: _.det_type.number;
 prn: _.prn_type.person.gender.number;
 v: _.tense;
 adv: _;
+adj:_.sint;
 sent: _;
 
 NP: _.number;
 DP: _.person.number;
 VP: _.person.gender.number.tense;
+AP: _;
 S: _;
 DET:_.det_type.person.number;
 
@@ -62,7 +64,7 @@ det: (if (1.det_type = def or 1.det_type = ind)
 DET -> %prn.$number/sl.*.spc { 1(det) } | 
        %prn.$number/sl.*.spc det.dem { 2(det_def)[number=1.number/sl] };
 NP -> %n { %1 } ;
-
+AP -> %adj { %1 } ;
 DP -> NP %DET { 2(det) _ 1[number=2.number] } |
       %prn { %1 } |
       %NP { %1 } | 
@@ -75,8 +77,8 @@ DP -> NP %DET { 2(det) _ 1[number=2.number] } |
       2: %DP NP det.pos.[possessor].[number] { 1[number=3.possessor>number] 's@gen _ 2[number=3.number] } |
       NP %DP det.pos.[possessor].[number] { 2[number=3.possessor>number] 's@gen _ 1[number=3.number] } ;
 VP -> %v { 1 } |
-      %v %prn { 1 _ 2[prn_type=obj] } |
-      %v DP { 1 _ 2 } ;
+     %v %prn { 1 _ 2[prn_type=obj] } |
+     %v DP { 1 _ 2 } ;
 S -> DP VP { 1 _ 2 } |
      DP adv VP { 1 _ 2 _ 3 } |
      VP { prpers@prn.subj.[1.person].[1.gender].[1.number>number] _ 1} ;

@@ -210,9 +210,9 @@
       <e><p><l>sim<s n="n"/></l>
             <r>bedroom<s n="n"/></r></p></e>    
       <e><p><l>binsar<s n="n"/></l>
-            <r>old woman<s n="n"/></r></p></e> 
+            <r>old<s n = "adj"/><s n="sint"/> woman<s n="n"/></r></p></e> 
       <e><p><l>insar<s n="n"/></l>
-            <r>old woman<s n="n"/></r></p></e> 
+            <r>old<s n = "adj"/><s n="sint"/> woman<s n="n"/></r></p></e> 
       <e><p><l>wemin<s n="n"/></l>
             <r>leg<s n="n"/></r></p></e> 
       <e><p><l>korben<s n="n"/></l>
@@ -226,7 +226,7 @@
       <e><p><l>knafofr<s n="n"/></l>
             <r>cheek<s n="n"/></r></p></e> 
       <e><p><l>romamkun<s n="n"/></l>
-            <r>little child<s n="n"/></r></p></e> 
+            <r>little<s n ="adj"/><s n="sint"/> child<s n="n"/></r></p></e> 
       <e><p><l>mkamor<s n="n"/></l>
             <r>eye<s n="n"/></r></p></e> 
       <e><p><l>majelis<s n="n"/></l>
@@ -234,7 +234,7 @@
       <e><p><l>jemaat<s n="n"/></l>
             <r>congregation<s n="n"/></r></p></e> 
       <e><p><l>kero<s n="n"/></l>
-            <r>little place<s n="n"/></r></p></e> 
+            <r>little<s n ="adj"/><s n="sint"/> place<s n="n"/></r></p></e> 
       <e><p><l>gelas<s n="n"/></l>
             <r>glass<s n="n"/></r></p></e> 
       <e><p><l>wos<s n="n"/></l>
@@ -377,9 +377,9 @@
       <e><p><l>vark<s n="v"/><s n="iv"/></l>
             <r>live<s n="vblex"/></r></p></e>
       <e><p><l>sam<s n="v"/><s n="iv"/></l>
-            <r>hot<s n="vblex"/></r></p></e>
+            <r>hot<s n="adj"/><s n="sint"/></r></p></e>
       <e><p><l>mbrow<s n="v"/><s n="iv"/></l>
-            <r>thirsty<s n="adj"/></r></p></e>
+            <r>thirsty<s n="adj"/><s n = "sint"/></r></p></e>
       <e><p><l>ores<s n="v"/><s n="iv"/></l>
             <r>stand<s n="vblex"/></r></p></e>
       <e><p><l>mnai<s n="v"/><s n="iv"/></l>
@@ -391,13 +391,13 @@
       <e><p><l>fawar<s n="v"/><s n="tv"/></l>
             <r>tell<s n="vblex"/></r></p></e>
       <e><p><l>bro<s n="v"/><s n="iv"/></l>
-            <r>empty<s n="adj"/></r></p></e>
+            <r>empty<s n="adj"/><s n="sint"/></r></p></e>
       <e><p><l>farkor<s n="v"/><s n="iv"/></l>
             <r>study<s n="vblex"/></r></p></e>
       <e><p><l>fur<s n="v"/><s n="tv"/></l>
             <r>build<s n="vblex"/></r></p></e>
       <e><p><l>ba<s n="v"/><s n="iv"/></l>
-            <r>big<s n="adj"/></r></p></e>
+            <r>big<s n="adj"/><s n="sint"/></r></p></e>
       <e><p><l>pauk<s n="v"/><s n="tv"/></l>
             <r>peel<s n="vblex"/></r></p></e>
       <e><p><l>an<s n="v"/><s n="tv"/></l>
@@ -622,8 +622,18 @@
             <r>oh<s n="ij"/></r></p></e>
       <e><p><l>boo<s n="ij"/></l>
             <r>oh<s n="ij"/></r></p></e>
-      <e><p><l>o<s n="ij"/></l>
-            <r>oh<s n="ij"/></r></p></e>
+      <!--<e><p><l>o<s n="ij"/></l>
+            <r>oh<s n="ij"/></r></p></e> -->
+      <e r="LR"><p><l>o<s n="ij"/></l>  
+            <r></r></p></e>
+      <e r="LR"><p><l>e<s n="ij"/></l>  
+            <r></r></p></e>
+      <e r="LR"><p><l>u<s n="ij"/></l>  
+            <r></r></p></e>
+      <e r="LR"><p><l>a<s n="ij"/></l>  
+            <r></r></p></e>
+      <e r="LR"><p><l>yo<s n="ij"/></l>  
+            <r></r></p></e>
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
