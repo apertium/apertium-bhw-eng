@@ -76,6 +76,8 @@ Files and data
 * [`apertium-bhw-eng.eng-bhw.rtx`](apertium-bhw-eng.eng-bhw.rtx) - Structural transfer rules for translating into Biak
 * [`apertium-bhw-eng.bhw-eng.lrx`](apertium-bhw-eng.bhw-eng.lrx) - Lexical selection rules for translating into English
 * [`apertium-bhw-eng.eng-bhw.lrx`](apertium-bhw-eng.eng-bhw.lrx) - Lexical selection rules for translating into Biak
+* [`apertium-bhw-eng.bhw-eng.lsx`](apertium-bhw-eng.bhw-eng.lsx) - Discontiguous multiword rules for translating into English
+* [`apertium-bhw-eng.eng-bhw.lsx`](apertium-bhw-eng.eng-bhw.lsx) - Discontiguous multiword rules for translating into Biak
 * [`modes.xml`](modes.xml) - Translation modes
 
 For more information

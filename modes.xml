@@ -14,9 +14,9 @@
       <program name="cg-proc -w -1 -n">
         <file name="bhw-eng.rlx.bin"/>
       </program>
-      <!--<program name="apertium-tagger -g $2">
-        <file name="bhw-eng.prob"/>
-      </program>-->
+      <program name="lsx-proc">
+        <file name="bhw-eng.autoseq.bin"/>
+      </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="bhw-eng.autobil.bin"/>
@@ -28,6 +28,9 @@
 
       <program name="rtx-proc">
         <file name="bhw-eng.rtx.bin"/>
+      </program>
+      <program name="lsx-proc" debug-suff="revautoseq">
+        <file name="bhw-eng.revautoseq.bin"/>
       </program>
 
       <program name="lt-proc $1">
@@ -56,6 +59,9 @@
         <file name="eng-bhw.prob"/>
       </program>
 
+      <program name="lsx-proc">
+        <file name="eng-bhw.autoseq.bin"/>
+      </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="eng-bhw.autobil.bin"/>
@@ -67,6 +73,9 @@
 
       <program name="rtx-proc">
         <file name="eng-bhw.rtx.bin"/>
+      </program>
+      <program name="lsx-proc" debug-suff="revautoseq">
+        <file name="eng-bhw.revautoseq.bin"/>
       </program>
 
       <program name="lt-proc $1">
