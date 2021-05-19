@@ -210,9 +210,9 @@
       <e><p><l>sim<s n="n"/></l>
             <r>bedroom<s n="n"/></r></p></e>    
       <e><p><l>binsar<s n="n"/></l>
-            <r>old<s n = "adj"/><s n="sint"/> woman<s n="n"/></r></p></e> 
+            <r>old<b/>woman<s n="n"/></r></p></e> 
       <e><p><l>insar<s n="n"/></l>
-            <r>old<s n = "adj"/><s n="sint"/> woman<s n="n"/></r></p></e> 
+            <r>old<b/>woman<s n="n"/></r></p></e> 
       <e><p><l>wemin<s n="n"/></l>
             <r>leg<s n="n"/></r></p></e> 
       <e><p><l>korben<s n="n"/></l>
