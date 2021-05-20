@@ -226,7 +226,7 @@
       <e><p><l>knafofr<s n="n"/></l>
             <r>cheek<s n="n"/></r></p></e> 
       <e><p><l>romamkun<s n="n"/></l>
-            <r>little<s n ="adj"/><s n="sint"/> child<s n="n"/></r></p></e> 
+            <r>little<b/> child<s n="n"/></r></p></e> 
       <e><p><l>mkamor<s n="n"/></l>
             <r>eye<s n="n"/></r></p></e> 
       <e><p><l>majelis<s n="n"/></l>
@@ -234,7 +234,7 @@
       <e><p><l>jemaat<s n="n"/></l>
             <r>congregation<s n="n"/></r></p></e> 
       <e><p><l>kero<s n="n"/></l>
-            <r>little<s n ="adj"/><s n="sint"/> place<s n="n"/></r></p></e> 
+            <r>little<b/>place<s n="n"/></r></p></e> 
       <e><p><l>gelas<s n="n"/></l>
             <r>glass<s n="n"/></r></p></e> 
       <e><p><l>wos<s n="n"/></l>
@@ -377,9 +377,9 @@
       <e><p><l>vark<s n="v"/><s n="iv"/></l>
             <r>live<s n="vblex"/></r></p></e>
       <e><p><l>sam<s n="v"/><s n="iv"/></l>
-            <r>hot<s n="adj"/><s n="sint"/></r></p></e>
+            <r>be<b/>hot<s n="vblex"/></r></p></e>
       <e><p><l>mbrow<s n="v"/><s n="iv"/></l>
-            <r>thirsty<s n="adj"/><s n = "sint"/></r></p></e>
+            <r>be<b/>thirsty<s n="vblex"/></r></p></e>
       <e><p><l>ores<s n="v"/><s n="iv"/></l>
             <r>stand<s n="vblex"/></r></p></e>
       <e><p><l>mnai<s n="v"/><s n="iv"/></l>
@@ -391,13 +391,13 @@
       <e><p><l>fawar<s n="v"/><s n="tv"/></l>
             <r>tell<s n="vblex"/></r></p></e>
       <e><p><l>bro<s n="v"/><s n="iv"/></l>
-            <r>empty<s n="adj"/><s n="sint"/></r></p></e>
+            <r>be<b/>empty<s n="vblex"/></r></p></e>
       <e><p><l>farkor<s n="v"/><s n="iv"/></l>
             <r>study<s n="vblex"/></r></p></e>
       <e><p><l>fur<s n="v"/><s n="tv"/></l>
             <r>build<s n="vblex"/></r></p></e>
       <e><p><l>ba<s n="v"/><s n="iv"/></l>
-            <r>big<s n="adj"/><s n="sint"/></r></p></e>
+            <r>be<b/>big<s n="vblex"/></r></p></e>
       <e><p><l>pauk<s n="v"/><s n="tv"/></l>
             <r>peel<s n="vblex"/></r></p></e>
       <e><p><l>an<s n="v"/><s n="tv"/></l>

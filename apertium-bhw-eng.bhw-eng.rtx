@@ -64,7 +64,6 @@ det: (if (1.det_type = def or 1.det_type = ind)
 DET -> %prn.$number/sl.*.spc { 1(det) } | 
        %prn.$number/sl.*.spc det.dem { 2(det_def)[number=1.number/sl] };
 NP -> %n { %1 } ;
-AP -> %adj { %1 } ;
 DP -> NP %DET { 2(det) _ 1[number=2.number] } |
       %prn { %1 } |
       %NP { %1 } | 

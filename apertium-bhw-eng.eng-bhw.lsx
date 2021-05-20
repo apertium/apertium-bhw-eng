@@ -54,6 +54,72 @@
 			</p>
 			<i><t/><j/></i>
 		</e>
+		<e lm="old woman" c="binsar">
+			<p>
+				<l>old<s n="adj"/><s n="sint"/><j/>woman<s n="n"/></l>
+				<r>old<b/>woman<s n="n"/></r>
+			</p>
+			<i><t/><j/></i>
+		</e>
+		<e lm="little child" c="romamkun">
+			<p>
+				<l>little<s n="adj"/><s n="sint"/><j/>child<s n="n"/></l>
+				<r>little<b/>child<s n="n"/></r>
+			</p>
+			<i><t/><j/></i>
+		</e>
+		<e lm="little place" c="kero">
+			<p>
+				<l>little<s n="adj"/><s n="sint"/><j/>place<s n="n"/></l>
+				<r>little<b/>place<s n="n"/></r>
+			</p>
+			<i><t/><j/></i>
+		</e>
+		<e lm="be big" c="ba">
+			<p>
+				<l>be<s n="vbser"/></l>
+				<r>be<b/>big<s n="vblex"/></r>
+			</p>
+			<i><t/><j/></i>
+			<!--<par n="optSAdv"/>-->
+			<p>
+				<l>big<s n="adj"/><s n="sint"/><j/></l>
+				<r></r>
+			</p>
+		</e>
+		<e lm="be hot" c="sam">
+			<p>
+				<l>be<s n="vbser"/></l>
+				<r>be<b/>hot<s n="vblex"/></r>
+			</p>
+			<i><t/><j/></i>
+			<p>
+				<l>hot<s n="adj"/><s n="sint"/><j/></l>
+				<r></r>
+			</p>
+		</e>
+		<e lm="be thirsty" c="mbrow">
+			<p>
+				<l>be<s n="vbser"/></l>
+				<r>be<b/>thirsty<s n="vblex"/></r>
+			</p>
+			<i><t/><j/></i>
+			<p>
+				<l>thirsty<s n="adj"/><s n="sint"/><j/></l>
+				<r></r>
+			</p>
+		</e>
+		<e lm="be empty" c="bro">
+			<p>
+				<l>be<s n="vbser"/></l>
+				<r>be<b/>empty<s n="vblex"/></r>
+			</p>
+			<i><t/><j/></i>
+			<p>
+				<l>empty<s n="adj"/><s n="sint"/><j/></l>
+				<r></r>
+			</p>
+		</e>
 	</section>
 </dictionary>
 
