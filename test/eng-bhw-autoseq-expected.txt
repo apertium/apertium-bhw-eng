@@ -1,0 +1,14 @@
+[-QWxlULtCMmp#0] ^only<adv>$
+[/-QWxlULtCMmp]
+[0DUCxD10owuT#0] ^,<cm>$
+[/0DUCxD10owuT]
+[3ff_Xr2dZs4W#0] ^arm<n><sg>$
+[/3ff_Xr2dZs4W]
+[9pw3TQtSO1dY#0] ^prpers<prn><subj><p2><mf><sg>$
+[/9pw3TQtSO1dY]
+[QbgF6nrAFOI1#0] ^;<sent>$
+[/QbgF6nrAFOI1]
+[V3ru59DQO1pF#0] ^cut<vblex><pres><p3><sg>$
+[/V3ru59DQO1pF]
+[hz_vdg5dABug#0] ^Sunday<n><sg>$
+[/hz_vdg5dABug]

@@ -1,0 +1,10 @@
+{
+    "bhw-eng": {
+        "input": "bhw-eng-input.txt",
+        "mode": "bhw-eng"
+    },
+    "eng-bhw": {
+        "input": "eng-bhw-input.txt",
+        "mode": "eng-bhw"
+    }
+}

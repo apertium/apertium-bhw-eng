@@ -1,0 +1,14 @@
+[IN-a99dXZUFs#0] ^kufisna/fi<n><pos><px1duinc><pl>/fi<n><pos><px1duinc><du>/fi<n><pos><px1duinc><pc>$
+[/IN-a99dXZUFs]
+[LLwL1Co0zLfX#0] ^sufisna/fi<n><pos><px3du><pl>/fi<n><pos><px3du><du>/fi<n><pos><px3du><pc>$
+[/LLwL1Co0zLfX]
+[UkGR9jIZnCrY#0] ^jemaat/jemaat<n>$
+[/UkGR9jIZnCrY]
+[ZEbVjW36_VhY#0] ^boo/boo<ij>$
+[/ZEbVjW36_VhY]
+[gxNIgiEveNgm#0] ^tahuno/tahun<n><nspc><sg>/tahun<n>+o<ij>$
+[/gxNIgiEveNgm]
+[io3oI9XtPhJ0#0] ^?/?<sent>$
+[/io3oI9XtPhJ0]
+[u3IIvJtdfATx#0] ^!/!<sent>$
+[/u3IIvJtdfATx]

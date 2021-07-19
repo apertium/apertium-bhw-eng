@@ -1,0 +1,14 @@
+[IN-a99dXZUFs#0] ^prpers<det><pos><p1><mf><pl>$ ^vagina<n><pl>$
+[/IN-a99dXZUFs]
+[LLwL1Co0zLfX#0] ^prpers<det><pos><p3><mf><pl>$ ^vagina<n><pl>$
+[/LLwL1Co0zLfX]
+[UkGR9jIZnCrY#0] ^congregation<n><sg>$
+[/UkGR9jIZnCrY]
+[ZEbVjW36_VhY#0] ^oh<ij>$
+[/ZEbVjW36_VhY]
+[gxNIgiEveNgm#0] ^year<n><sg>$
+[/gxNIgiEveNgm]
+[io3oI9XtPhJ0#0] ^?<sent>$
+[/io3oI9XtPhJ0]
+[u3IIvJtdfATx#0] ^!<sent>$
+[/u3IIvJtdfATx]
