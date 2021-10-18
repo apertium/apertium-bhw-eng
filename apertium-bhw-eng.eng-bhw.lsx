@@ -15,18 +15,18 @@
 
 	<pardefs>
 		<pardef n="adj">
-			<e><i><w/><s n="adj"/><j/></i></e>
-			<e><i><w/><s n="adj"/><t/><j/></i></e>
+			<e><i><w/><s n="adj"/><d/></i></e>
+			<e><i><w/><s n="adj"/><t/><d/></i></e>
 		</pardef>
 		<pardef n="adv">
-			<e><i><w/><s n="adv"/><j/></i></e>
-			<e><i><w/><s n="adv"/><t/><j/></i></e>
+			<e><i><w/><s n="adv"/><d/></i></e>
+			<e><i><w/><s n="adv"/><t/><d/></i></e>
 		</pardef>
 		<pardef n="n">
-			<e><i><w/><s n="n"/><t/><j/></i></e>
+			<e><i><w/><s n="n"/><t/><d/></i></e>
 		</pardef>
 		<pardef n="det">
-			<e><i><w/><s n="det"/><t/><j/></i></e>
+			<e><i><w/><s n="det"/><t/><d/></i></e>
 		</pardef>
 		<pardef n="SN">
 			<e><par n="n"/></e>
@@ -49,41 +49,41 @@
 
 		<e lm="old woman" c="insar">
 			<p>
-				<l>old<s n="adj"/><s n="sint"/><j/>woman<s n="n"/></l>
+				<l>old<s n="adj"/><s n="sint"/><d/>woman<s n="n"/></l>
 				<r>old<b/>woman<s n="n"/></r>
 			</p>
-			<i><t/><j/></i>
+			<i><t/><d/></i>
 		</e>
 		<e lm="old woman" c="binsar">
 			<p>
-				<l>old<s n="adj"/><s n="sint"/><j/>woman<s n="n"/></l>
+				<l>old<s n="adj"/><s n="sint"/><d/>woman<s n="n"/></l>
 				<r>old<b/>woman<s n="n"/></r>
 			</p>
-			<i><t/><j/></i>
+			<i><t/><d/></i>
 		</e>
 		<e lm="little child" c="romamkun">
 			<p>
-				<l>little<s n="adj"/><s n="sint"/><j/>child<s n="n"/></l>
+				<l>little<s n="adj"/><s n="sint"/><d/>child<s n="n"/></l>
 				<r>little<b/>child<s n="n"/></r>
 			</p>
-			<i><t/><j/></i>
+			<i><t/><d/></i>
 		</e>
 		<e lm="little place" c="kero">
 			<p>
-				<l>little<s n="adj"/><s n="sint"/><j/>place<s n="n"/></l>
+				<l>little<s n="adj"/><s n="sint"/><d/>place<s n="n"/></l>
 				<r>little<b/>place<s n="n"/></r>
 			</p>
-			<i><t/><j/></i>
+			<i><t/><d/></i>
 		</e>
 		<e lm="be big" c="ba">
 			<p>
 				<l>be<s n="vbser"/></l>
 				<r>be<b/>big<s n="vblex"/></r>
 			</p>
-			<i><t/><j/></i>
+			<i><t/><d/></i>
 			<!--<par n="optSAdv"/>-->
 			<p>
-				<l>big<s n="adj"/><s n="sint"/><j/></l>
+				<l>big<s n="adj"/><s n="sint"/><d/></l>
 				<r></r>
 			</p>
 		</e>
@@ -92,9 +92,9 @@
 				<l>be<s n="vbser"/></l>
 				<r>be<b/>hot<s n="vblex"/></r>
 			</p>
-			<i><t/><j/></i>
+			<i><t/><d/></i>
 			<p>
-				<l>hot<s n="adj"/><s n="sint"/><j/></l>
+				<l>hot<s n="adj"/><s n="sint"/><d/></l>
 				<r></r>
 			</p>
 		</e>
@@ -103,9 +103,9 @@
 				<l>be<s n="vbser"/></l>
 				<r>be<b/>thirsty<s n="vblex"/></r>
 			</p>
-			<i><t/><j/></i>
+			<i><t/><d/></i>
 			<p>
-				<l>thirsty<s n="adj"/><s n="sint"/><j/></l>
+				<l>thirsty<s n="adj"/><s n="sint"/><d/></l>
 				<r></r>
 			</p>
 		</e>
@@ -114,9 +114,9 @@
 				<l>be<s n="vbser"/></l>
 				<r>be<b/>empty<s n="vblex"/></r>
 			</p>
-			<i><t/><j/></i>
+			<i><t/><d/></i>
 			<p>
-				<l>empty<s n="adj"/><s n="sint"/><j/></l>
+				<l>empty<s n="adj"/><s n="sint"/><d/></l>
 				<r></r>
 			</p>
 		</e>
